@@ -1,0 +1,19 @@
+h1 {
+    background-color: green; 
+    text-align: center; 
+    font-size: 40px;
+    color: purple
+}
+
+h2 {
+    background-color: beige; 
+    text-align: left; 
+    color: gray
+   
+}
+p {
+    float: left;
+    color: purple;
+    font-size: 18px
+}
+
