@@ -1,19 +1,35 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
 h1 {
-    background-color: green; 
+    background-color: lightblue; 
     text-align: center; 
     font-size: 40px;
-    color: purple
+    color: orchid
 }
 
-h2 {
-    background-color: beige; 
-    text-align: left; 
-    color: gray
-   
-}
 p {
     float: left;
-    color: purple;
+    color: orchid;
     font-size: 18px
 }
 
+/* I want the Jumbotron to have a border/padding so that it isn't across the full screen, but I don't know how to do that.  Also, I want the contact info box at the bottom to be centered and not suck */
+
+/* I have having trouble Centering my Gloom image on the page and Centering my Button above... I have tried a lot of things */
+
+.image {
+    align-items: center;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
